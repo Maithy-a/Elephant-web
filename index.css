@@ -1,0 +1,78 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: beige;
+    width: 100%;
+    height: auto;
+}
+.navigation{
+background-color: #1565f8e7;
+padding: 5px;
+}
+.navbar{
+    list-style: none;display: flex;
+    justify-content: right;
+    justify-content: space-around; 
+}
+.navbar a{
+    text-decoration: none;
+    color: white;font-size: 18px;
+}
+.btn-contact{
+    background-color: rgb(105, 201, 201);
+    padding: 10px;border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+}
+.btn-contact:hover{
+    box-shadow: 2px 2px 5px white;
+    color: black;transition: 1.5s;
+}
+.home{
+    display: flex;
+}
+.side{
+    padding: 20px;
+    background-color: #cccc61;
+}
+.right{
+    color: white;padding: 50px;
+    background-image:url(/img/newElephant.jpg);
+    height: 350px;width:800px;
+}
+.About{
+    height:300px;display: flex;
+}
+.aside{
+    padding: 20px;
+    background-color: #1565f8e7;
+}
+#Contact{
+    padding: 50px;
+}
+.contact_list{
+    display: flex; list-style: none;
+    gap:2rem;
+    justify-content: right;
+}
+.footer{
+    background-color: #646262;
+    padding: 30px;color: white;
+}
+.footer ul{
+    list-style: none;
+}
+.Lists{
+    display: flex;
+    justify-content: space-between;
+}
+.social_links a{
+    color: white;text-decoration: none;
+}
+.social_links a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+
